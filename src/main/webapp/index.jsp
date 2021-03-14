@@ -14,7 +14,7 @@
 
 <h1>We are getting Started with Servlets</h1>
 <!-- <a href="first">Go to Servlet</a> -->
-<form action="first" method="post">
+<form action="first" method="GET">
     <input type="text" name="userName" placeholder="Your Name"><br>
     <input type="password" name="userPass" placeholder="Your password">
     <input type="text" name="userAddress" placeholder="Your Address">

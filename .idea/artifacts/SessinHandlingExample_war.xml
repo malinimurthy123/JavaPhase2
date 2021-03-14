@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SessinHandlingExample:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SessinHandlingExample</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SessinHandlingExample-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SessinHandlingExample:war exploded" />
+    </root>
+  </artifact>
+</component>

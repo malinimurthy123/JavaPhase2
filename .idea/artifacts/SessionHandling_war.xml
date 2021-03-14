@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SessionHandling:war">
+    <output-path>$PROJECT_DIR$/../SessionHandling/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SessionHandling</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SessionHandling-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SessionHandling:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -7,7 +7,6 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-
 public class UpdateResultSet {
 
     String qry;
@@ -43,11 +42,9 @@ public class UpdateResultSet {
         }
     }
 
-
     public static void main(String[] args) {
         new UpdateResultSet().fetchAndUpdate();
     }
-
 
     void fetchAndUpdate() {
 //	Write the query to fetch records from table:learners
@@ -73,7 +70,6 @@ public class UpdateResultSet {
                     System.out.println("Name updated...");
                 }
             }
-
 
         } catch (SQLException e) {
             System.out.println("Can't get a reference to the PreparedStatement : " + e.getMessage());

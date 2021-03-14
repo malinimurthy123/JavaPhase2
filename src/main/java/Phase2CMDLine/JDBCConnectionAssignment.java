@@ -8,7 +8,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Scanner;
 
-
 public class JDBCConnectionAssignment {
     String qry;
     Connection dbCon;
@@ -56,12 +55,10 @@ public class JDBCConnectionAssignment {
 
         new JDBCConnectionAssignment().getLearnerDetailsById(id);
     }
-
     //	Insert a new record in the table:learners using PreparedStatement
     void addNewLearner(String learnerName, String learnerAddress) {
 //		Write the query to insert
         qry = "insert into learners(learnerName, learnerAddress) values(?, ?)";
-
 
         try {
 //			Get a reference to the PreparedStatement
@@ -79,7 +76,6 @@ public class JDBCConnectionAssignment {
             System.out.println("Can't get a reference to the PreparedStatement : " + e.getMessage());
         }
     }
-
 
     //Fetch all details of a learner by id from table:learners
     void getLearnerDetailsById(int id) {
@@ -103,11 +99,9 @@ public class JDBCConnectionAssignment {
                 System.out.println(", Address : " + theResultSet.getString("learnerAddress"));
             }
 
-
         } catch (SQLException e) {
             System.out.println("Can't get a reference to the PreparedStatement : " + e.getMessage());
         }
     }
-
 
 }

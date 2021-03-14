@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaEEHelloWorld" />
+        <module name="SessionHandling" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="JavaEEHelloWorld" target="1.8" />
+      <module name="SessionHandling" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

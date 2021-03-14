@@ -92,6 +92,7 @@ public class HelloServlet extends HttpServlet {
 //
 //
 ////		Get a reference to the ServletConfig object
+    //per servlet to get the session config
 //	 	ServletConfig config = getServletConfig();
 //
 ////	 	Get params out of the config for this servlet

@@ -38,8 +38,6 @@ public class HelloServlet extends HttpServlet {
         response.getWriter().println("Welcome : " + userName + ", your address is : " + userAddress);
     }
 
-
-
     @Override
     public void destroy() {
         System.out.println("inside destroy()...");

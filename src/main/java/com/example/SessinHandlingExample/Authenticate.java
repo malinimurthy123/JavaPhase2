@@ -28,7 +28,7 @@ public class Authenticate extends HttpServlet {
         System.out.println("ID : " + id);
 
 
-        //		Fetch the values from Request
+        //Fetch the values from Request
         String userName = request.getParameter("userName");
 //		String userPassword = request.getParameter("userPass");
 
